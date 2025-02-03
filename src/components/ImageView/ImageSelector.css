@@ -1,0 +1,26 @@
+.imageSelector {
+  padding: 10px;
+  border: 1px solid black;
+  width: 42px;
+  height: 76px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  background-color: beige;
+  .stand-left {
+    position: relative;
+    left: 5px;
+  }
+  .walk-left {
+    position: relative;
+    right: 5px;
+  }
+  .stand-right {
+    position: relative;
+    left: 7px;
+  }
+  .walk-top-left {
+    position: relative;
+    right: 5px;
+  }
+}
